@@ -273,7 +273,7 @@ typedef struct
 /** @defgroup DMA_fifo_direct_mode 
   * @{
   */ 
-#define DMA_FIFOMode_Disable              ((uint32_t)0x00000000) 
+#define DMA_FIFOMode_Disable              ((uint32_t)0x00000000)
 #define DMA_FIFOMode_Enable               ((uint32_t)0x00000004)
 
 #define IS_DMA_FIFO_MODE_STATE(STATE) (((STATE) == DMA_FIFOMode_Disable ) || \

@@ -3,7 +3,7 @@
 
 #include <sys.h>	  
 
-void SysTick_init(u8 SYSCLK);
+void time_systick_init(u8 SYSCLK);
 
 void Time_delay_ms(u16 nms);
 void Time_us(u32 nus);

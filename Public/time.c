@@ -25,7 +25,7 @@ static u16 fac_ms=0;							//ms延时倍乘数,在os下,代表每个节拍的ms�
 * SYSTICK的时钟固定为AHB时钟频率
 * SYSCLK:系统时钟频率
 */
-void delay_init(u8 SYSCLK)
+void time_systick_init(u8 SYSCLK)
 {
 #if SYSTEM_SUPPORT_OS 							//如果需要支持OS.
 	u32 reload;
